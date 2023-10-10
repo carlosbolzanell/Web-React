@@ -1,11 +1,11 @@
 import React from 'react';
-import css from './App.css';
+import'./App.css';
 import Banner from './componentes/Banner'
 import Formulario from './componentes/Formulario';
 
 const App = () =>{
   return (
-    <div>
+    <div className='div'>
       <Banner />
       <Formulario/>
     </div>
